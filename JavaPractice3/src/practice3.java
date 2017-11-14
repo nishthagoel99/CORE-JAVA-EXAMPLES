@@ -4,6 +4,17 @@ import java.util.Scanner;
 public class practice3 {
     public static void main(String[] args)
     {
+        //using string methods
+        String string1="Hello World";
+        System.out.println("length is "+ string1.length());
+        System.out.println("substring is "+ string1.substring(3,6));
+        System.out.println("upper case is " + string1.toUpperCase());
+        System.out.println("index of character e is " + string1.indexOf('e'));
+        System.out.println("character at index 4 is "+ string1.charAt(4));
+        System.out.println("last index is " +  string1.lastIndexOf('l'));
+        System.out.println("replacing letter l with k produces " + string1.replace('l','k'));
+
+
         Scanner input=new Scanner(System.in);
         int base,ex;
 
